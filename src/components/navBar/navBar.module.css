@@ -1,0 +1,100 @@
+.NavBar {
+    padding-top: 15px;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Logo {
+    margin: 0 50px;
+
+}
+
+.Info {
+    display: none;
+}
+
+.Bus {
+    background-image: url('../../assets/bus-in-mountains\ \(1\).webp');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 380px;
+    width: 100%;
+}
+
+@media (min-width: 450px) {
+    .Info {
+        display: block;
+    }
+}
+
+@media (min-width: 750px) {
+    .Logo {
+        margin: 0 75px;
+
+    }
+}
+
+@media (min-width: 1000px) {
+    .Logo {
+        margin: 0 125px;
+
+    }
+}
+
+@media (min-width: 1250px) {
+    .Logo {
+        margin: 0 175px;
+
+    }
+}
+
+@media (min-height: 650px) {
+    .Bus {
+        height: 430px;
+    }
+}
+
+@media (min-height: 700px) {
+    .Bus {
+        height: 470px;
+    }
+}
+
+@media (min-height: 810px) {
+    .Bus {
+        height: 530px;
+    }
+}
+
+@media (min-height: 885px) {
+    .Bus {
+        height: 600px;
+    }
+}
+
+@media (min-height: 1020px) {
+    .Bus {
+        height: 700px;
+    }
+}
+
+@media (min-height: 1080px) and (min-width: 1920px) {
+    .Bus {
+        height: 100vh;
+    }
+
+    .Logo {
+        margin: 0 250px;
+
+    }
+}
+
+@media (min-height: 1200px) {
+    .Bus {
+        height: 900px;
+    }
+}
