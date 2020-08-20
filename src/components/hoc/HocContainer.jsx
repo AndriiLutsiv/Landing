@@ -4,9 +4,7 @@ export const HocContainer = (Component) => {
   return (props) => {
     return (
       <div className={classes.container}>
-        hoc
         <Component {...props} />
-        hoc
       </div>
     );
   };

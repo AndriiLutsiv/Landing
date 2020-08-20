@@ -5,11 +5,11 @@ class ElPrimero extends React.Component {
   render() {
     return (
       <div className={classes.wrap}>
-        <div class={classes.logo}>
+        <div className={classes.logo}>
           <img src={Icon} alt="" />
         </div>
-        <div class={classes.title}>El Primero lorem</div>
-        <div class={classes.text}>
+        <div className={classes.title}>El Primero lorem</div>
+        <div className={classes.text}>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and

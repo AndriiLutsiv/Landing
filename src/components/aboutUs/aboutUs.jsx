@@ -2,6 +2,7 @@ import React from "react";
 import classes from "./aboutUs.module.css";
 import ElPrimero from "./ElPrimero/ElPromero";
 import ElDorcero from "./ElDorcero/Eldorcero";
+import ElTercero from "./ElTercero/ElTercero";
 
 class AboutUs extends React.Component {
   render() {
@@ -9,6 +10,7 @@ class AboutUs extends React.Component {
       <div>
         <ElPrimero />
         <ElDorcero />
+        <ElTercero />
       </div>
     );
   }

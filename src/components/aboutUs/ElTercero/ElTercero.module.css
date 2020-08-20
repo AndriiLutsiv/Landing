@@ -4,13 +4,14 @@
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
-
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.left {
-    background-image: url("../../../assets/2nd\ background.webp");
+.roundedImg {
+    border-radius: 10px;
+}
+
+.right {
+    background-image: url('../../../assets/3d-background.jpg');
     width: 100%;
     background-position: -1px -1px;
     background-repeat: no-repeat;
@@ -21,17 +22,23 @@
     justify-content: center;
     align-items: center;
     min-height: 300px;
+    margin-top: 25px;
+    border-radius: 10px;
 }
 
-.right {}
+.left {}
 
-.rightContent {}
+.content {
+    width: 100%;
+}
 
 .svg {
     margin-top: 25px;
     text-align: center;
     margin-bottom: 25px;
 }
+
+
 
 .title {
     text-align: center;
@@ -52,48 +59,38 @@
     margin-bottom: 25px;
 }
 
-.img {
-    text-align: center;
-
-}
-
-.img img {
-
-    width: 100%;
-}
-
-.roundedImg {
-    border-radius: 10px;
-}
+.image {}
 
 @media (min-width: 480px) {
     .wrap {
-        padding: 10px 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
-    .left {
+    .right {
         min-height: 350px;
     }
 }
 
 @media (min-width: 800px) {
-    .right {
+    .left {
         display: flex;
+        flex-direction: row-reverse;
         margin-top: 15px;
     }
 
-    .rightContent {
-        max-width: 500px;
-        margin-right: 10px;
+    .content {
+        max-width: 100%;
+        margin-left: 10px;
     }
 
-    .img {
-
+    .image {
         margin-left: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
-
     }
 
     .svg {
@@ -104,33 +101,34 @@
         margin-bottom: 10px;
     }
 
-    .left {
+    .right {
         min-height: 425px;
     }
 }
 
+
+
 @media (min-width: 1050px) {
     .wrap {
-        flex-direction: row;
-        padding-top: 0;
+        flex-direction: row-reverse;
+        padding-top: 25px;
         padding-bottom: 0;
         align-items: flex-end;
     }
 
-    .right {
+    .left {
         display: block;
-        margin-left: 20px;
+        margin-right: 20px;
         margin-top: 0;
     }
 
-    .rightContent {
+    .content {
         max-width: 533px;
         margin-right: 0;
     }
 
-    .img {
-        margin-left: auto;
-        margin-right: auto;
+    .svg {
+        margin-left: 0;
         display: block;
     }
 
@@ -147,7 +145,14 @@
         margin-bottom: 35px;
     }
 
-    .left {
+    .right {
         height: inherit;
+        margin-top: 5px;
+    }
+
+    .Three_fourth__condition {
+        max-height: 148.31px;
     }
 }
+
+@media (min-width: 1700px) {}

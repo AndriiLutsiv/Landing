@@ -5,7 +5,7 @@ import AboutUs from "./components/aboutUs/aboutUs";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <NavBar />
       <AboutUs />
       {/* <div className="app-wrapper">
